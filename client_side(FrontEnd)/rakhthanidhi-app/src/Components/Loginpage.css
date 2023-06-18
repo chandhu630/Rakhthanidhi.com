@@ -1,0 +1,94 @@
+.box{
+    border:3px solid #181494;
+    width:1000px;
+    height:620px;
+    margin-top:10%;
+    margin-left:20px;
+    margin-left:130%;
+    box-shadow:20px;
+    border-radius:15px;
+    background-image: url("/public/photos/balls.jpg");   
+    background-size: 900px;
+    /* background-image:url("../../public/photos/blood.jpg") ; */
+}
+body{
+ /* background-image: url("../../public/photos/pink.jpg");   */
+ width:200px;
+ height:600px;
+   
+} 
+.h2{
+    margin-top:20px;
+    color:midnightblue;
+    font-size: 24px;
+}
+.name
+{
+    margin-left:10px;
+    margin-bottom:0px;
+    margin-right:50px;
+    width:280px;
+    height:30px;
+    font-size:15px;
+    margin-top:10px;
+     /* box-shadow:5px 5px 5px 5px blue; */
+} 
+.password
+{
+    margin-left:10px;
+    margin-right:50px; 
+    width:280px;
+    height:30px; 
+    font-size:15px;
+    margin-top:10px;
+    /* box-shadow:5px 5px 5px 5px blue; */
+    border:2px solid black;
+} 
+.Inputname
+{
+    margin-top:60px;
+    margin-right:268px; 
+    font-size:20px;
+    color:white;
+}
+.Inputpassword
+{
+    margin-right:248px;
+    margin-top:10px;
+    font-size:20px;
+    color:white;
+}
+.click
+{
+    width:100px;
+    height:35px;
+    margin-top:20px;
+    margin-right:20px;
+    font-size:20px;
+    color:white;
+    text-shadow:10px;
+    border-radius:5px;
+    background-color: black;
+}
+.color
+{
+    color:blue;
+    margin-left:5px;
+}
+.forgot
+{
+    margin-right:110px;
+    font-size:20px;
+    color:white;
+    margin-left:5px;
+}
+.insideBox
+{
+    width:350px;
+    height:400px;
+    border:2px solid darkblue;
+    margin-left:35%; 
+    margin-top:10%;
+    border-radius:15px;
+    
+}

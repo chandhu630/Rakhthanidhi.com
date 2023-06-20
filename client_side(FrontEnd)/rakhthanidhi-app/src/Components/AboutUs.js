@@ -33,6 +33,8 @@ function aboutUs()
                 </div>
                 <div className="Lastone">
                     <div className="imgdiv">
+                        <div className="donateText">The blood You Donate gives someone Another chance At life
+                        <div className="downText">Give the Gift Of Life<b><br></br>Donate Blood</b></div></div>
                     <img  className="donate" src="./photos/djsir.png" alt=""/></div>
                 </div>
 

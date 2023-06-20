@@ -5,7 +5,7 @@
    
     height:350px;
     margin-top:0px;
-    background-color: red;
+    background-color: rgb(194, 30, 30);
     
 }
 .box
@@ -15,7 +15,7 @@
     display: flex;
     height:190px;
     margin-top:0px;
-    background-color: red;
+    background-color:rgb(73, 73, 101)  ;
     
 }
 .boxone
@@ -54,7 +54,7 @@
 .heading
 {
     font-size:25px;
-    color:blueviolet;
+    color:red;
 }
 .rambus{
     width:100px;
@@ -120,7 +120,7 @@
     width:100px;
     height:100px;
     border-radius:50%;
-    border:2px solid black;
+    border:2px solid rgb(87, 87, 131);
 }
 .display
 {
@@ -144,7 +144,7 @@
 }
 .Lastone
 {
-    border:2px solid black;
+    border:px solid black;
     height:350px;   
     background-color: rgb(194, 30, 30);
 }
@@ -152,10 +152,28 @@
     display:flex;
 
 }
+.donateText
+{
+    border:px solid black;
+    font-size:30px;
+    color:white;
+    height:100px;
+    width:700px;
+    margin-top:60px;
+    margin-left:150px;
+
+}
 .donate
 {
-    margin-left:950px;
+    margin-left:150px;
     width:350px;
-    border-radius:50%;
+    /* border-radius:50%; */
     height:350px;
+}
+.downText
+{
+    color:white;
+    border:px solid black;
+    font-size:50px;
+    margin-top:20px;
 }

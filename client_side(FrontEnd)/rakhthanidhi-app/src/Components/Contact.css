@@ -1,0 +1,35 @@
+.heading
+{
+    font-size:25px;
+   background-color: bisque;
+}
+.flex
+{   
+    display:flex;
+    height:300px;
+    border:2px solid black;
+    width:900px;
+    margin-left:100px;
+}
+.photo
+{
+    border:2px solid black;
+    width:200px;
+    height:250px;
+    
+}
+.phototwo{
+    border:2px solid black;
+    width:200px;
+    height:250px;
+
+}
+.name
+{
+    margin-top:100px;
+}
+.text
+{
+    padding:70px 140px 70px 70px;
+    text-align: start;
+}

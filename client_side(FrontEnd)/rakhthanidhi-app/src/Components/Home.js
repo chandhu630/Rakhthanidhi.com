@@ -22,7 +22,7 @@ function home()
                 <button className="Belowsidebutton">&#62;</button> */}
         </div>
         <div className="Side">
-                <div className=" sideheading"><div className="Color">Why some timesw blood shortage Happens:</div><div className="info">
+                <div className=" sideheading"><div className="Color">Why some times blood shortage Happens:</div><div className="info">
                          Emergencies and unexpected events: Unforeseen emergencies,
                          such as mass casualties from accidents or natural disasters,
                          can quickly overwhelm the available blood supply in hospitals.

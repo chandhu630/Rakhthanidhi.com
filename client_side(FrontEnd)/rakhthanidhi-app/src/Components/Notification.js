@@ -19,8 +19,8 @@ function notication ()
                     
                     <div className='insideOne'>
                     <div className='display'>
-                      <div className='capability'> Availability <button class="green"> Green</button></div> 
-                       <div><button className="red"> Red</button></div> 
+                        <div className='capability'> Availability <button class="green"> Green</button></div> 
+                        <div><button className="red"> Red</button></div> 
                         </div></div>
                     </div>
             </div>

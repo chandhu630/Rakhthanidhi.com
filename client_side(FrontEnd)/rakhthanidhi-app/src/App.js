@@ -5,11 +5,11 @@ import React from 'react';
 // import Home from "./Components/Home.js";
 // import WhyDonateBlood from './Components/WhyDonateBlood';
 // import AboutUs from "./Components/AboutUs";
-// import Notification from "./Components/Notification";
+import Notification from "./Components/Notification";
 // import Gallery from "./Components/Gallery";
 // import Donatepage from "./Components/Donatepage";
-import Contact from "./Components/Contact";
-
+// import Contact from "./Components/Contact";
+import Data from "./Components/Data";
 // import './Loginpage.css';
 import './App.css';
 
@@ -21,10 +21,11 @@ function App() {
        {/* <Home></Home> */}
        {/* <WhyDonateBlood></WhyDonateBlood> */}
        {/* <AboutUs>  </AboutUs> */}
-       {/* <Notification></Notification> */}
+       <Notification></Notification>
        {/* <Gallery></Gallery> */}
        {/* <Donatepage></Donatepage> */}
-       <Contact></Contact>
+       {/* <Contact></Contact> */}
+       {/* <Data></Data> */}
     </div>  
   );
 }

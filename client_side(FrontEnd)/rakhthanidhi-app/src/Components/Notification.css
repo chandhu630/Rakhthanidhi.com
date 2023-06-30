@@ -16,8 +16,8 @@
 .box
 {
     height:500px;
-    width:1100px;
-    margin-left:200px;
+    width:1000px;
+    margin-left:150px;
     border:2px solid silver;
     /* background-color: crimson; */
     background-image: url("/public/photos/white.png");

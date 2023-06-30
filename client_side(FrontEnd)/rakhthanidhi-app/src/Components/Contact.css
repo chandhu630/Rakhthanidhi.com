@@ -1,35 +1,97 @@
 .heading
 {
-    font-size:25px;
-   background-color: bisque;
+   font-size:25px;
+   background-color: rgb(54, 24, 101);
+   color:white;
 }
-.flex
-{   
-    display:flex;
-    height:300px;
-    border:2px solid black;
-    width:900px;
-    margin-left:100px;
-}
-.photo
+.Div
 {
-    border:2px solid black;
-    width:200px;
-    height:250px;
-    
+    border:px solid black;
+    height:510px;
+    margin-left:20px;
+    margin-right:20px;
 }
-.phototwo{
-    border:2px solid black;
-    width:200px;
-    height:250px;
+.flex{
+    border :px solid red;
+    height:300px;
+    display:flex;
+}
+.boxone
+{
+    border:2px solid rgb(225, 221, 221);
+    width:500px;
+    height:300px;
+    margin-left:100px;
+    border-radius:15px;
 
 }
-.name
+.boxtwo
 {
-    margin-top:100px;
+    border:2px solid rgb(225, 221, 221);
+    width:500px;
+    height:300px;
+    margin-left:20px;
+    border-radius:15px;
 }
-.text
+.inside
 {
-    padding:70px 140px 70px 70px;
-    text-align: start;
+    border:px solid black;
+    width:220px;
+    height:260px;
+    background-image: url("/public/photos/myphoto.jpeg");
+    background-size: cover;
+}
+.info
+{
+    border:px solid black;
+    width:240px;
+    height:260px;
+    margin-left:240px;
+}
+.font
+{
+    font-size:20px;
+}
+.one{
+    font-size:20px;
+    margin-left:38px;
+}
+
+.zero
+{
+    margin-top:20px;
+}
+.margin-right
+{
+    margin-left:100px;
+    margin-top:20px;
+    font-size:15px;
+    color:rgb(7, 6, 6);
+    border:2px solid black;
+}
+.rate
+{
+    border:2px solid black;
+    width:500px;
+    height:177px;
+    margin-left:24px;
+    margin-top:20px;
+    border-radius:5px;
+}
+.margin
+{
+    border:px solid rgb(94, 205, 50);
+    display:flex;
+    height:200px;
+}
+.star
+{
+    width:30px;
+    color:green;
+    height:30px;
+}
+body{
+    /* background-color: rgb(222, 28, 28); */
+    background-image: url("/public/photos/quote.png");
+    background-size:cover;
 }

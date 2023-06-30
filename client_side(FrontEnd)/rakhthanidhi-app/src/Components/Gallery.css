@@ -5,13 +5,13 @@
 .photos
 {
     border:5px solid rgb(169, 36, 118);;
-    width:300px;
+    width:290px;
     height:280px;
     margin-left:10px;
     margin-top:10px;
     border-radius:7px;
 }
-.One
+/* .One
 {
     border:5px solid rgb(196, 45, 138);
     width:300px;
@@ -19,7 +19,7 @@
     margin-left:120px;
     margin-top:10px;
     border-radius:7px;
-}
+} */
 .photos:hover
 {
     background-color:black;

@@ -1,4 +1,4 @@
-.heading
+/* .heading
 {
     color:rgb(46, 46, 53);
     font-size:25px;
@@ -20,7 +20,7 @@
     margin-left:150px;
     border:2px solid silver;
     /* background-color: crimson; */
-    background-image: url("/public/photos/white.png");
+    /* background-image: url("/public/photos/white.png");
 }
 .display
 {
@@ -114,4 +114,112 @@
 .red:hover
 {
     background-color:red;
+}*/
+
+.size
+{
+    border:px solid black;
+} 
+
+.search
+{
+    padding:5px 30px 5px 5px;
+}
+.submit
+{
+    padding:5px 20px 5px 5px;
+    margin-left:10px;
+}
+.acountment
+{
+    color:brown;
+}
+
+.second{
+    border:px solid red;
+    /* margin-left:400px;
+    margin-right:200px; */
+   
+}
+.table
+{
+    /* border:2px solid red; */
+    /* width:450px; */
+    margin-left:23%;   
+    display:flex;
+    /* border:2px solid black; */
+}
+.th{
+    border:2px solid blue;
+    /* background-color: blue; */
+}
+
+.Sno
+{
+    width:33px;
+    border:2px solid green;
+    margin-left:5px;
+    margin-top:3px;
+   
+}
+.bloodgroup
+{
+    border:2px solid green;
+   margin-top:3px;
+    width:140px;
+}
+.H_name
+{
+    width:400px;
+    border:2px solid green;
+    margin-right:3px;
+    margin-left:3px;
+    margin-top:2px;
+}
+.location
+{
+   
+    border:2px solid red;
+    margin-left:2px;
+    margin-top:2px;
+}
+#Snoheading
+{
+    margin-left:299px;
+    width:33px;
+    border:2px solid black;
+}
+.row{
+    margin-right: 400px;
+    border: 5px solid blue;
+    width:20px;
+    height:20px;
+}
+.flex
+{
+    display:flex;
+}
+.hosName
+{
+    border:2px solid black;
+    width:400px;
+    margin-left:3px;
+}
+.bloodG
+{
+
+    border:2px solid black;
+    width:140px;
+    margin-left:3px;
+}
+.loctionHead
+{
+    width:105px;
+    border:2px solid black;
+    margin-left:2px;
+}
+.border
+{
+    border:px solid black;
+    
 }

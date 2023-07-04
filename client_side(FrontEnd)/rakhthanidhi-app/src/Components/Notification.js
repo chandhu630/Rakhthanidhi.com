@@ -68,27 +68,35 @@ function notification ()
     {
         setBlooddata("");
     }
-    return(
+    return( 
     <div className="second">
-         <div className='acountment'>Search below what details you want ex Hospital,Blood Group,location</div>
-                    <input className ="search" type="text" placeholder ="Search here" value ={bloodData} onChange={bloodChange}/>
-                    <button className='submit' onClick={clearData}>Submit</button>
+         <div className='acountment'>Search below district name you can get nearest hospital name,phone number</div>
+                    <input className ="search" type="text" placeholder =" 🔍 Search here" value ={bloodData} onChange={bloodChange}/>
+                    <button className='submit' onClick={clearData}>Clear</button>
                 <div className="border">
-                    <h1>Blood Availability Of Hospitals</h1>
-                    <div className="flex">
+                    <h1 className='color'>Availability of BloodBanks and Locations</h1>
+                    {/* <div className="flex">
                     <div id="Snoheading">Sno</div>
-                    <div className="hosName">Hospital Name</div>
-                    <div className="bloodG">Blood Group</div>
-                    <div className="loctionHead">Location</div>
-                    </div>
+                    <div className="hosName">hospital_Or_BloodBankName</div>
+                    <div className="bloodG">current_City</div>
+                    <div className="loctionHead">district</div>
+                    <div className=''> state</div>
+                    <div className=''>contact_No</div> */}
+                    {/* </div> */}
+
+
+
+                    
+
+                    
                     
       {
         (notification?.filter(function(e)
         {
-            if (e.blood_Group.toLocaleLowerCase().includes(bloodData.toLocaleLowerCase())){
+            if (e.district.toLocaleLowerCase().includes(bloodData.toLocaleLowerCase())){
                 return notification;
             }
-        })?.map(({Sno,hospital_Name,blood_Group,location})=><div>
+        })?.map(({sNo,hospital_Or_BloodBankName,current_City,district,state,contact_No})=><div>
             
             {/* <div>{Sno}</div>
             <div>{hospital_Name}</div>
@@ -96,14 +104,17 @@ function notification ()
             <div>{location}</div> */}
             
                 <div className="table">
-                    
-                        <div className="Sno">{Sno}</div>
-                        <div  className="H_name">{hospital_Name}</div>
-                        <div className="bloodgroup">{blood_Group}</div>
-                        <div className="location">{location}</div>
-                    
+                    <div className='solid'>
+                        {/* <div className="Sno">{sNo}</div> */}
+                        <div className="H_name"><b>🏨Hospital Name:</b>{hospital_Or_BloodBankName}</div>
+                        <div className="currentCity">🏙️<b>Address:</b>{current_City}</div>
+                        <div className="district">🏴󠁩󠁬󠁺<b>District:</b>{district}</div>
+                        <div className="contact_No">📞<b>Phone No:</b>{contact_No}</div>
+                        <div className="state">🏛️<b>{state},🇮🇳India</b></div>
+                        
+                        </div>
                 </div>
-               
+               <div className='maps'></div>
            
            
                

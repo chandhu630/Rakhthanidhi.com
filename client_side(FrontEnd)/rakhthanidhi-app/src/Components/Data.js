@@ -18,17 +18,29 @@ function data ()
     }
     return(
     <div className="second">
-                <div className="border">
+                {/* <div className="border">
                     <h1>Blood Availability Of Hospitals</h1>
                     <div className="flex">
                     <div id="Snoheading">Sno</div>
                     <div className="hosName">Hospital Name</div>
                     <div className="bloodG">Blood Group</div>
                     <div className="loctionHead">Location</div>
+                    </div> */}
+                    <div className="border">
+                    {/* <h1>Availability of BloodBanks And Location</h1> */}
+                    <div className="flex">
+                    <div className="Sno">sNo</div>
+                    <div className="H_name">hospital_Or_BloodBankName</div>
+                    <div className="bloodgroup">current_City</div>
+                    <div className="location">district</div>
+                    <div className=""> state</div>
+                    <div className="">contact_No </div>
+
+                    
                     </div>
                     
       {
-        data?.map(({Sno,hospital_Name,blood_Group,location})=><div>
+        data?.map(({sNo,hospital_Or_BloodBankName,current_City,district,state,contact_No })=><div>
             {/* <div>{Availability_Id}</div> */}
           
             {/* <table className="bloodId">{B_Id}</table>
@@ -53,15 +65,26 @@ function data ()
             <div>{blood_Group}</div>
             <div>{location}</div> */}
             
-                <div className="table">
+                {/* <div className="table">
                     
                         <div className="Sno">{Sno}</div>
                         <div  className="H_name">{hospital_Name}</div>
                         <div className="bloodgroup">{blood_Group}</div>
                         <div className="location">{location}</div>
                     
-                </div>
-               
+                </div> */}
+               {/* <div className="table">
+                    
+                    <div className="Sno">{sNo}</div>
+                    <div className="H_name">{hospital_Or_BloodBankName}</div>
+                    <div className="bloodgroup">{current_City}</div>
+                    <div className="location">{district}</div>
+                    <div className="">{ state}</div>
+                    <div className="">{ contact_No }</div>
+                
+            </div> */}
+
+
            
            
                

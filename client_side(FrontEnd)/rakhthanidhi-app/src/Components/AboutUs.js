@@ -21,7 +21,7 @@ function aboutUs()
                 <div className="accidents"><img  className="width" src ="./photos/accident.png" alt=""/></div>
                 <div className="top">1,50,000 Road Accidents death in india</div>
                 <div className="accidents"><img  className="width" src ="./photos/child.png" alt=""/></div>
-                <div className="top">1,38,000 Approximate pregnancy death india</div>
+                <div className="top">1,38,000 Approximately pregnancy death india</div>
                 </div>
                 
                     <div className="display">
@@ -34,7 +34,7 @@ function aboutUs()
                 <div className="Lastone">
                     <div className="imgdiv">
                         <div className="donateText">The blood You Donate gives someone Another chance At life
-                        <div className="downText">Give the Gift Of Life<b><br></br>Donate Blood</b></div></div>
+                        <div className="downText">Give The Gift Of Life<b><br></br>Donate Blood</b></div></div>
                     <img  className="donate" src="./photos/djsir.png" alt=""/></div>
                 </div>
 

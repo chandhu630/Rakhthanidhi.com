@@ -1,0 +1,193 @@
+/* .heading
+{
+    color:rgb(46, 46, 53);
+    font-size:25px;
+}
+.Location
+{
+    font-size:20px;
+}
+.location
+{
+    padding: 10px 10px 10px 20px;
+    border: 2px solid black;
+    margin-top:20px;
+}
+.box
+{
+    height:500px;
+    width:1000px;
+    margin-left:150px;
+    border:2px solid silver;
+    /* background-color: crimson; */
+    /* background-image: url("/public/photos/white.png");
+}
+.display
+{
+    display:flex;
+    height:500px;
+}
+.inside
+{
+    border:2px solid silver;
+    height:400px;
+    width:850px;
+    margin-left:40px;
+    margin-top:30px;
+    background-color: red;
+}
+.span
+{
+    color:blue;
+}
+.Name
+{
+    font-size:20px;
+}
+.name{
+    margin-left:29px;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid black;
+    margin-top:20px;
+}
+.age
+{
+    margin-left:50px;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid black;
+    margin-top:20px;
+}
+.bloodGroup
+{
+    margin-right:30px;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid black;
+    margin-top:20px;
+}
+.address
+{
+    margin-right:70px;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid black;
+    margin-top:20px;
+}
+.submit
+{
+    padding:20px 40px 10px 10px;
+    text-align: center;
+    margin-top:30px;
+    border:2px solid black;
+    margin-right:30px;
+
+}
+.submit:hover
+{
+    background-color: rgb(25, 68, 111);
+}
+.insideOne
+{
+    width:400px;
+    height:180px;
+    border:px solid black;
+    margin-left:40px;
+    margin-top:100px;
+}
+.capability
+{
+    margin-top:90px;
+    font-size: 20px;
+}
+.red
+{
+    margin-top:90px;
+    padding: 20px 30px 20px 10px;
+}
+.green
+{
+    
+    padding: 20px 20px 20px 10px
+}
+.green:hover
+{
+    background-color:green;
+}
+.red:hover
+{
+    background-color:red;
+}*/
+
+.size
+{
+    border:px solid black;
+} 
+
+.search
+{
+    padding:10px 30px 10px 40px;
+}
+.submit
+{
+    padding:10px 15px 10px 5px;
+    margin-left:10px;
+}
+.acountment
+{
+    color:brown;
+}
+
+.second{
+    border:px solid red;
+    /* margin-left:400px;
+    margin-right:200px; */
+   
+}
+.table
+{
+   
+    border:px solid black;
+}
+/* .Sno
+{
+   border: 2px solid black;
+}
+.H_name
+{
+   border: 2px solid black;
+}
+.currentCity
+{
+   border: 2px solid black;
+}
+.district
+{
+   border: 2px solid black;
+} */
+.state
+{
+   border: px solid black;
+   color:rgb(250, 215, 222);
+}
+.contact_No
+{
+   border: px solid black;
+}
+.solid
+{
+    border:px solid rgb(217, 231, 243);
+    margin-left:290px;
+    margin-right:290px;
+    margin-top:20px;
+    background-color:rgb(117, 178, 232);
+    
+
+}
+.solid:hover
+{
+    background-color:lightseagreen;
+    border-radius:5px;
+}
+.color
+{
+    color:brown;
+}
+

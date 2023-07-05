@@ -20,23 +20,24 @@
     height:40px;
 } */
 
-.second{
+/* .second{
     border:px solid red;
     /* margin-left:400px;
-    margin-right:200px; */
+    margin-right:200px; 
    
 }
-.table
+/* .table
 {
     /* border:2px solid red; */
     /* width:450px; */
-    margin-left:23%;   
+    /* margin-left:13%; 
+    margin-right:13%;  
     display:flex;
-    /* border:2px solid black; */
+    /* border:2px solid black; 
 }
 .th{
     border:2px solid blue;
-    /* background-color: blue; */
+    /* background-color: blue; 
 }
 
 .Sno
@@ -45,8 +46,8 @@
     border:2px solid green;
     margin-left:5px;
     margin-top:3px;
-   
-}
+    
+/* }
 .bloodgroup
 {
     border:2px solid green;
@@ -55,13 +56,13 @@
 }
 .H_name
 {
-    width:400px;
-    border:2px solid green;
+    width:800px;
+    border:px solid green;
     margin-right:3px;
     margin-left:3px;
     margin-top:2px;
-}
-.location
+} */ 
+/* .location
 {
    
     border:2px solid red;
@@ -107,4 +108,4 @@
 {
     border:px solid black;
     
-}
+} */ 

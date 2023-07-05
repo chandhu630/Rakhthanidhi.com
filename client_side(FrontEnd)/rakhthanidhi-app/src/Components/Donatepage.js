@@ -3,7 +3,7 @@ import "./Donatepage.css";
 function donatepage()
 {
     return(
-        <div className="background">
+        <div>
             
           <div className="img"><div className="quote"><div className="boxwidth">"Donate Blood Today So That No One Ever Has To Suffer From A Lack Of Blood."</div><div className="smile">&#128522;</div></div></div>
            

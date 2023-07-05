@@ -121,9 +121,10 @@
     border:px solid black;
 } 
 
-.search
+/* .search
 {
     padding:10px 30px 10px 40px;
+    border-radius:5px;
 }
 .submit
 {
@@ -132,8 +133,9 @@
 }
 .acountment
 {
-    color:brown;
-}
+    color:rgb(177, 30, 30);
+    line-height:50px;
+} */
 
 .second{
     border:px solid red;
@@ -145,49 +147,130 @@
 {
    
     border:px solid black;
+    
 }
 /* .Sno
 {
    border: 2px solid black;
-}
+}*/
 .H_name
 {
-   border: 2px solid black;
+   border: px solid black;
+   line-height: 30px;
+   color:blue;
+
 }
 .currentCity
 {
-   border: 2px solid black;
+   border: px solid black;
+   line-height: 30px;
 }
 .district
 {
-   border: 2px solid black;
-} */
+   border: px solid black;
+   line-height: 30px;
+} 
 .state
 {
    border: px solid black;
-   color:rgb(250, 215, 222);
+   color:rgb(128, 8, 8);
+   line-height: 30px;
 }
 .contact_No
 {
    border: px solid black;
+   line-height: 30px;
 }
 .solid
 {
-    border:px solid rgb(217, 231, 243);
-    margin-left:290px;
-    margin-right:290px;
+    border:0.5px solid rgb(189, 211, 230);
+    margin-left:170px;
+    margin-right:170px;
+    border-radius:5px;
     margin-top:20px;
-    background-color:rgb(117, 178, 232);
-    
-
+    /* background-color:rgb(210, 210, 220) ; */
 }
 .solid:hover
 {
-    background-color:lightseagreen;
+    background-color:rgb(244, 52, 126);
+    /* background-color:lightpink; */
     border-radius:5px;
+}
+
+
+.flex
+{
+    border:6px solid rgb(160, 157, 157);
+    height:200px;
+    display:flex;
+    background-color:silver;
+}
+.div1
+{
+    width:280px;
+    height:200px;
+    border:px solid black;
+}
+.url
+{
+   
+    border:px solid blue;
+}
+.map
+{
+
+    width:170px;
+    height:150px;
+    border:px solid blue;
+    margin-top:20px;
+    margin-right:20px;
+
+
+}
+.search
+{
+    padding:10px 30px 10px 40px;
+    border-radius:5px;
+}
+.submit
+{
+    padding:10px 15px 10px 5px;
+    margin-left:10px;
+    border-radius:5px;
+}
+.subtext
+{
+    color:brown;
+    margin-top:10px;
+
+}
+.div2
+{
+    width:660px;
+    height:200px;
+    margin-left:5px ;
+    border:px solid black;
 }
 .color
 {
     color:brown;
+    margin-top:10px;
+    margin-bottom:20px;
+    line-height:30px;;
+    font-size:25px;
+    border:px solid black;
 }
-
+.div3
+{
+    width:250px;
+    height:200px;
+    margin-left:5px ;
+    border:px solid black;
+}
+.show
+{
+    width:200px;
+    height:150px;
+    border:px solid black;
+    margin-top:20px;
+}

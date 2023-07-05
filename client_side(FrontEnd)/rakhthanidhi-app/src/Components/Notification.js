@@ -70,11 +70,49 @@ function notification ()
     }
     return( 
     <div className="second">
-         <div className='acountment'>Search below district name you can get nearest hospital name,phone number</div>
-                    <input className ="search" type="text" placeholder =" 🔍 Search here" value ={bloodData} onChange={bloodChange}/>
-                    <button className='submit' onClick={clearData}>Clear</button>
-                <div className="border">
-                    <h1 className='color'>Availability of BloodBanks and Locations</h1>
+        <div className='flex'>
+                <div className='div1'><div className='url'><a className="" href="https://maps.google.com/"> 
+                        <img className='map' src="./photos/google-maps.png" /></a>
+                </div>
+        </div>
+                <div className='div2'>
+                        <div className='color'><b>Availability of BloodBanks and Locations</b></div>
+                        <input className ="search" type="text" placeholder =" 🔍 Search here" value ={bloodData} onChange={bloodChange}/>
+                        <button className='submit' onClick={clearData}>Clear</button>
+                        <div className='subtext'>Search Above district name you can get nearest hospital/bloodbank name,phone number</div>
+                </div>
+                <div className='div3'>
+                        <div className=''> <img className='show' src="./photos/show.png" /></div> 
+
+                </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+                    
+                             
+
+                           
+                           
+
+                    <div className="border">
                     {/* <div className="flex">
                     <div id="Snoheading">Sno</div>
                     <div className="hosName">hospital_Or_BloodBankName</div>
@@ -82,14 +120,7 @@ function notification ()
                     <div className="loctionHead">district</div>
                     <div className=''> state</div>
                     <div className=''>contact_No</div> */}
-                    {/* </div> */}
-
-
-
-                    
-
-                    
-                    
+                    {/* </div> */}         
       {
         (notification?.filter(function(e)
         {
@@ -102,19 +133,18 @@ function notification ()
             <div>{hospital_Name}</div>
             <div>{blood_Group}</div>
             <div>{location}</div> */}
-            
                 <div className="table">
                     <div className='solid'>
                         {/* <div className="Sno">{sNo}</div> */}
-                        <div className="H_name"><b>🏨Hospital Name:</b>{hospital_Or_BloodBankName}</div>
-                        <div className="currentCity">🏙️<b>Address:</b>{current_City}</div>
-                        <div className="district">🏴󠁩󠁬󠁺<b>District:</b>{district}</div>
-                        <div className="contact_No">📞<b>Phone No:</b>{contact_No}</div>
+                        <div className="H_name"><b>{hospital_Or_BloodBankName}</b></div>
+                        <div className="currentCity">🏙️<b>Address : </b>{current_City},{district}<b>(Dist)</b></div>
+                        {/* <div className="district">🏴󠁩󠁬󠁺<b>District : </b>{district}</div> */}
+                        <div className="contact_No">📞<b>Phone No : </b>{contact_No}</div>
                         <div className="state">🏛️<b>{state},🇮🇳India</b></div>
                         
                         </div>
                 </div>
-               <div className='maps'></div>
+              
            
            
                
@@ -122,6 +152,7 @@ function notification ()
       }
     </div>
      </div>
+    
     )
     
 }

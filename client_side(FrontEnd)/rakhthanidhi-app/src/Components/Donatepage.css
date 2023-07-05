@@ -12,7 +12,7 @@
 {
     border:px solid black;
     height:250px;
-    width:1350px;
+    /* width:1350px; */
     margin-left:px;
     display:flex;
     background-color: blanchedalmond;
@@ -32,7 +32,7 @@
 {
     width:800px ;
     height:250px;
-    margin-left:40px;
+    /* margin-left:40px; */
     border:px solid red;
 }
 .fillAnother
